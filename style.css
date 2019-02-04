@@ -87,13 +87,11 @@ h2{
 }
     
 .social li p{
-    vertical-align: bottom;
     position: absolute;
 }
     
 .social li i{
     font-size: 50px;
-    vertical-align: top;
     margin-top: 6%;
     margin-left: 1%;
     position: relative;
