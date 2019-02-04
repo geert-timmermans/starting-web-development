@@ -83,19 +83,12 @@ h2{
     
 .social li{
     text-align: center;
-    display: inline-block;
     margin: 20px;
-}
-    
-.social li p{
-    position: absolute;
 }
     
 .social li i{
     font-size: 50px;
-    margin-top: 6%;
     margin-left: 1%;
-    position: relative;
 }
 
 .social a:link, .social a:visited{
