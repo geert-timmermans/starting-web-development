@@ -1,0 +1,156 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    color: #B2B2B2;
+}
+
+h1{
+    color: #E53333;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container{
+    width: 88%;
+    margin: 0 auto;
+    background-color: #B2B2B2;
+    display: flex;
+    flex-direction: column;
+}
+.info, .social, .movies{
+    background-color: whitesmoke;
+    width: 45%;
+    border-radius: 5px;
+}
+.info{
+    margin: 50px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto{
+    width: 20%;
+    border: 5px solid #B2B2B2;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.info > p{
+    margin: 0 20px 20px 20px;
+}
+
+.info > a{
+    background-color: #E53333;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.info a:link, .info a:visited{
+    color: whitesmoke;
+    transition: color 3s;
+}
+
+.info > a:hover{
+    color: #E53333;
+    transition: color 3s;
+}
+
+.social{
+    margin: 20px auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.social li{
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+}
+    
+.social li p{
+    vertical-align: bottom;
+    position: absolute;
+}
+    
+.social li i{
+    font-size: 50px;
+    vertical-align: top;
+    margin-top: 6%;
+    margin-left: 1%;
+    position: relative;
+}
+
+.social a:link, .social a:visited{
+    color: #B2B2B2;
+    transition: color 3s;
+}
+
+.twitter > a:hover{
+    color: #1da1f2;
+    
+}
+
+.facebook > a:hover{
+    color: #4267b2;
+}
+
+.linkedin > a:hover{
+    color: #0077b5;
+}
+
+.movies{
+    margin: 0 auto 50px auto;
+    display:grid;
+    grid-template:
+    'movies-title           movies-title'
+    'movies-space-foto      movies-space-text'
+    'movies-vacances-foto   movies-vacances-text'
+    'movies-alien-foto      movies-alien-foto';
+}
+
+.movies h3{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.movies-foto{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.movies-text{
+    margin-bottom: 3px;
+    margin-right: 20px;
+}
+
+.movies-title{
+    grid-area: movies-title;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.movies-alien-text{
+    margin-bottom: 40px;
+}
