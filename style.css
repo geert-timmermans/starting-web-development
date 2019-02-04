@@ -64,7 +64,7 @@ h2{
 
 .info a:link, .info a:visited{
     color: whitesmoke;
-    transition: color 3s;
+    transition: color 2s;
 }
 
 .info > a:hover{
@@ -101,7 +101,7 @@ h2{
 
 .social a:link, .social a:visited{
     color: #B2B2B2;
-    transition: color 3s;
+    transition: color 2s;
 }
 
 .twitter > a:hover{
