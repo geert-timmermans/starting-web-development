@@ -70,7 +70,7 @@ h2{
 
 .info > a:hover{
     color: #E53333;
-    transition: color 3s;
+    transition: color 1.5s;
 }
 
 .social{
